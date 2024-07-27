@@ -2011,7 +2011,7 @@ input, select, textarea {
 		-webkit-transition: all 0.25s ease-in-out;
 		-ms-transition: all 0.25s ease-in-out;
 		transition: all 0.25s ease-in-out;
-		-webkit-appearance: none;
+		--webkit-appearance: none;
 		position: relative;
 		display: inline-block;
 		background: #3d3d3d;
