@@ -1535,6 +1535,9 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
+		overflow: hidden;
+		height: 17rem;
+		border-radius: .5rem;
 	}
 
 		.image:after {
