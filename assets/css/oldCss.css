@@ -1536,7 +1536,7 @@ input, select, textarea {
 		display: inline-block;
 		border: 0;
 		overflow: hidden;
-		height: 20rem;
+		height: 17rem;
 		border-radius: .5rem;
 	}
 
@@ -1552,24 +1552,8 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			min-width: 50%;
-			max-width: 100%;
+			width: 100%;
 			border-radius: 0.5em;
-		}
-
-		.img-3,
-		.img-5,
-		.img-6 {
-			position: relative;
-			top: -9rem;
-		}
-
-		.img-5 {
-			top: -5rem;
-		}
-
-		.img-6 {
-			top: -15rem;
 		}
 
 		.image.featured {
