@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --white: #fff;
+    --dark: #443333;
+    --shadow: #e6e6e6;
+    --grey: #aaa;
+    --dark-grey: #666;
+    --real-dark-grey: #3d3d3d;
+}
+
+/*********
+Base Style
+*********/
+
+body {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.dark p {
+	color: rgba(255, 255, 255, 0.65);
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 100;
+    color: var(--white);
+}
+
+.button {
+    padding: 2rem 5.5rem;
+    border-radius: .5rem;
+    background-color: var(--real-dark-grey);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 2rem;
+    border: .1rem solid var(--white);
+}
+
+/*******
+HEADER
+*******/
+
+#header {
+    width: 100vw;
+    height: 100vh;
+    background: url('../../images/black-hair.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+#header header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 4rem 0;
+}
+
+
+
