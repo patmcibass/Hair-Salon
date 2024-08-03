@@ -15,6 +15,7 @@ html {
     --grey: #aaa;
     --dark-grey: #666;
     --real-dark-grey: #3d3d3d;
+    --transparent: rgba(255, 255, 255, 0.5);
 }
 
 /*********
@@ -115,24 +116,32 @@ MAIN
 }
 
 .container > section {
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 5rem;
-    min-height: 60rem;
+    min-height: 70rem;
 }
 
 /* ICONS */
 
+.icon-container {
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
 /* STUCK MAKING THE 3 SECTIONS LOOK EVEN */
 
 .feature-icon {
-	background: rgba(255, 255, 255, 0.5);
+	background: var(--transparent);
     display: block;
     border-radius: 50%;
-    margin-bottom: auto;
 }
 
 .icon {
@@ -140,9 +149,17 @@ MAIN
     padding: 5rem;
 }
 
-.container header,
-.container p {
-    text-align: center;
+.bar {
+    height: 8rem;
+    width: .25rem;
+    background-color: var(--transparent);
+}
+
+.icon-container header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container h3 {
@@ -153,4 +170,6 @@ MAIN
 .container > section > p {
     line-height: 4rem;
     font-size: 2rem;
+    height: 60%;
+    text-align: center;
 }
