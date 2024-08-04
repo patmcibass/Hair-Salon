@@ -70,7 +70,7 @@ HEADER
 #header {
     width: 100vw;
     height: 100vh;
-    background: url('../../images/black-hair.jpg');
+    background: url(../images/black-hair.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -35rem;
