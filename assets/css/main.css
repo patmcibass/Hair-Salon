@@ -137,8 +137,6 @@ MAIN
     gap: 2rem;
 }
 
-/* STUCK MAKING THE 3 SECTIONS LOOK EVEN */
-
 .feature-icon {
 	background: var(--transparent);
     display: block;
@@ -166,6 +164,7 @@ MAIN
 .container h3 {
     font-weight: 100;
     line-height: 5rem;
+    text-align: center;
 }
 
 .container > section > p {
@@ -230,7 +229,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 legend {
@@ -290,7 +289,7 @@ footer {
     justify-content: flex-end;
     align-items: center;
     gap: 5rem;
-    width: 62.5vw;
+    width: 63vw;
 }
 
 .icons a {
@@ -303,12 +302,11 @@ footer {
 }
 
 .copyright {
-    width: 37.5vw;
+    width: 37vw;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
 
 .menu {
     list-style-type: none;
