@@ -111,7 +111,7 @@ MAIN
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+    background: url("../images/bgtr.svg") top right no-repeat, url("../images/bgbl.svg") bottom left no-repeat, url("../images/bgbl.svg") bottom left no-repeat, url("../images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
     color: var(--white);
     padding: 8rem 5rem;
 }
@@ -189,7 +189,7 @@ svg {
     justify-content: center;
     align-items: center;
     gap: 6rem;
-    background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+    background: url("../images/bgtr.svg") top right no-repeat, url("../images/bgbl.svg") bottom left no-repeat, url("../images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
     padding: 10rem;
 }
 
@@ -201,19 +201,16 @@ svg {
     box-shadow: .01rem .01rem 1rem var(--real-dark-grey);
 }
 
-.img-3,
-.img-5,
-.img-6 {
-    position: relative;
-    top: -9rem;
-}
+
 
 .img-5 {
-    top: -8rem;
+    position: relative;
+    top: -20px;
 }
 
 .img-6 {
-    top: -22rem;
+    position: relative;
+    top: -20px;
 }
 
 /*********
