@@ -275,3 +275,54 @@ textarea {
     background-color: var(--shadow);
     border: 1px solid var(--real-dark-grey);
 }
+
+/*********
+FOOTER
+*********/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;
+    width: 100vw;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5rem;
+    width: 62.5vw;
+}
+
+.icons a {
+    width: 3rem;
+}
+
+.social-icon {
+    font-size: 3rem;
+    color: var(--dark-grey);
+}
+
+.copyright {
+    width: 37.5vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.menu {
+    list-style-type: none;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--real-dark-grey);
+}
