@@ -113,7 +113,7 @@ MAIN
     gap: 10rem;
     background: url("../images/bgtr.svg") top right no-repeat, url("../images/bgbl.svg") bottom left no-repeat, url("../images/bgbl.svg") bottom left no-repeat, url("../images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
     color: var(--white);
-    padding: 8rem 5rem;
+    padding: 10rem 5rem 2rem 5rem;
 }
 
 .container > section {
@@ -130,7 +130,7 @@ MAIN
 
 .icon-container {
     display: flex;
-    height: 40%;
+    height: 45rem;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -167,11 +167,15 @@ MAIN
     text-align: center;
 }
 
-.container > section > p {
-    line-height: 4rem;
-    font-size: 2rem;
-    height: 60%;
+.wrapper {
+    height: 40rem;
     text-align: center;
+}
+
+.wrapper p {
+    font-size: 2rem;
+    line-height: 4rem;
+
 }
 
 /*********
@@ -320,4 +324,13 @@ footer {
 .menu a {
     text-decoration: none;
     color: var(--real-dark-grey);
+}
+
+
+/* MEDIA QUERRIES */
+@media screen and (max-width: 1202px) {
+    .container {
+        padding: 5rem 5rem 10rem 5rem;
+    }
+    
 }
