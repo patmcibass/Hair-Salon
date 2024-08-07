@@ -340,25 +340,52 @@ footer {
   
     .container {
         position: relative;
-        height: 110rem;
+        height: 100vh;
         justify-content: center;
         align-items: flex-end;
-        padding: 6rem;
+        padding: 0 0 4rem 0;
     }
 
-    .container > section {
+    .display-sections {
         position: absolute;
-        top: 10rem;
+        top: 5rem;
         opacity: 0;
-        transition: opacity 1000ms linear;
+        height: fit-content;
     }
 
     .container > .current-section {
         opacity: 1;
     }
+    /* ICONS */
+    .icon-container {
+        height: fit-content;
+        gap: 3rem;
+    }
+
+    .bar {
+        display: none;
+    }
+    
+    .icon {
+        font-size: 7rem;
+        padding: 3rem;
+    }
+
+    .wrapper {
+        width: 50rem;
+        height: fit-content;
+    }
+    
 
     .hidden {
         opacity: 0;
+    }
+
+    .dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
     }
 
     .cycle-btn {
