@@ -23,6 +23,8 @@ html {
 Base Style
 *********/
 
+
+
 body {
 	font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -42,7 +44,7 @@ p {
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 100;
     color: var(--white);
 }
@@ -73,12 +75,11 @@ HEADER
     background: url(../images/black-hair.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -35rem;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
 }
 
 #header header {
@@ -86,8 +87,12 @@ HEADER
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 12rem 0 0 0;
     gap: 1rem;
-    margin: 0 0 4rem 0;
+}
+
+#header footer {
+    margin: 5rem 0 0 0;
 }
 
 
@@ -221,6 +226,10 @@ svg {
     top: -20px;
 }
 
+.show-more {
+    display: none;
+}
+
 /*********
 FORM
 *********/
@@ -336,11 +345,11 @@ footer {
 
 
 /* MEDIA QUERRIES */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1650px) {
   
     .container {
         position: relative;
-        height: 100vh;
+        min-height: 100vh;
         justify-content: center;
         align-items: flex-end;
         padding: 0 0 4rem 0;
@@ -381,11 +390,16 @@ footer {
         opacity: 0;
     }
 
+    .hide {
+        display: none;
+    }
+
     .dots {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 8rem;
+        z-index: 1;
     }
 
     .cycle-btn {
@@ -399,9 +413,57 @@ footer {
     .active {
         background-color: var(--real-dark-grey);
     }
+
+    /* PHOTOS */
+    .photo-container{
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 8rem 0 5rem 0;
+    }
+
+    .show-more {
+        display: block;
+        font-size: 4rem;
+        color: var(--white);
+        margin-top: 4rem;
+    }
     
 }
 
-/* @media screen and (max-width: 1000) {
+@media screen and (max-width: 950px) {
+   
+    /* Form */
+    form {
+        width: 1500px;
+    }
+
+    legend {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    input {
+        width: 100%;
+    }
+
     
-} */
+}
+
+@media screen and (max-width: 850px) {
+    .col-6 {
+        width: 30rem;
+        height: 18rem;
+    }
+
+    .button {
+        padding: 1rem 3rem;
+    }
+}
+
+@media screen and (max-height: 1300px) {
+    .container {
+        height: 65vh;
+    }
+}
