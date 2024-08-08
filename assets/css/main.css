@@ -448,6 +448,25 @@ footer {
         width: 100%;
     }
 
+    .button {
+        padding: 1rem 3rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    .icons {
+        margin: 0 0 5rem 0;
+    }
+
+    .copyright {
+        justify-content: center;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 2rem;
+    }
     
 }
 
@@ -457,9 +476,6 @@ footer {
         height: 18rem;
     }
 
-    .button {
-        padding: 1rem 3rem;
-    }
 }
 
 @media screen and (max-height: 1300px) {
