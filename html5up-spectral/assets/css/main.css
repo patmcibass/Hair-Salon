@@ -2128,7 +2128,7 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 			width: 100%;
 			overflow: hidden;
-			max-height: 200px;
+			max-height: 80%;
 		}
 
 			.image.fit img {
