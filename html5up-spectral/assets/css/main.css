@@ -2537,28 +2537,23 @@ input, select, textarea {
 /* Features */
 
 	.features {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		display: flex;
-		-moz-flex-wrap: wrap;
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
 		justify-content: center;
 		list-style: none;
 		padding: 0;
 		width: 100%;
+		gap: 2rem;
 	}
+		.features img {
+			width: 45%;
+			border-radius: .5rem;
+			box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.75);
+		}
 
 		.features li {
-			padding: 4em 4em 2em 6em ;
 			display: block;
 			position: relative;
-			text-align: left;
 			width: 50%;
 		}
 
