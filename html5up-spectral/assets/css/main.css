@@ -2127,6 +2127,8 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			overflow: hidden;
+			max-height: 200px;
 		}
 
 			.image.fit img {
@@ -2545,11 +2547,11 @@ input, select, textarea {
 		width: 100%;
 		gap: 2rem;
 	}
-		.features img {
+		/* .features img {
 			width: 45%;
 			border-radius: .5rem;
 			box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.75);
-		}
+		} */
 
 		.features li {
 			display: block;
